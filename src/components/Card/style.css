@@ -1,0 +1,79 @@
+.container-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 322px;
+    height: 380px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.container-card img {
+    width: 322px;
+    height: 280px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.container-card img:hover {
+    transform: scale(1.1);
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    width: 163px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.parcela {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    justify-content: space-between;
+}
+
+.descricao span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.preco span {
+    font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-decoration-line: line-through;
+
+color: #ABA0A0;
+}
+
+.preco h1 {
+    font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.parcela h1 {
+    font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.parcela span {
+    font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #000000;
+}

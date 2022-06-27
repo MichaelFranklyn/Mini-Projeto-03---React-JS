@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    background: #C4C4C4;
+    color: #474545;
+}
+
+.left {
+    width: 50vw;
+    height: 400px;
+    padding: 80px 116px;
+}
+
+.linha {
+    height: 340px;
+    width: 0;
+    border: 1px solid #6D6B6B;
+}
+
+.right {
+    width: 50vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+}
+
+.footer h1 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.footer span {
+    font-size: 22px;
+    line-height: 26px;
+}
